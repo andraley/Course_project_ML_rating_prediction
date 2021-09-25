@@ -23,7 +23,7 @@ def load_model(model_path):
 		model = dill.load(f)
 	print(model)
 
-modelpath = "C:\Geekbrains\models\logreg_pipeline.dill"
+modelpath = "C:\Geekbrains\models\catboost_pipeline.dill"
 load_model(modelpath)
 
 @app.route("/", methods=["GET"])
